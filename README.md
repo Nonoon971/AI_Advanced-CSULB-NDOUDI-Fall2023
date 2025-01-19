@@ -56,6 +56,52 @@ This assignment focused on optimizing hyperparameters for a neural network using
 
 This assignment underscores the importance of hyperparameter tuning in machine learning to enhance model performance.
 
+### Assignment 6 - Implementing Convolutional Neural Networks with Keras
+This assignment involved implementing convolutional neural networks (CNNs) and experimenting with regularization methods to improve model performance and prevent overfitting. The tasks included:
+
+* Data Organization: Setting up training, validation, and test directories for the Cats vs. Dogs dataset.
+* Model Building: Constructing a CNN with multiple Conv2D and MaxPooling2D layers, followed by a Dense layer with a sigmoid activation for binary classification.
+* Training: Training the model using fit_generator, with data fed through generators that yield batches of preprocessed images.
+* Data Augmentation: Implementing data augmentation techniques using Keras' ImageDataGenerator to increase the diversity of the training set through random transformations like rotation, translation, and flipping.
+* Regularization: Adding Dropout layers to the network to further reduce overfitting.
+* Evaluation: Plotting training and validation accuracy and loss curves to assess model performance, and comparing results with and without regularization techniques.
+
+This assignment provides practical exposure to building and training CNNs, emphasizing data preparation, model architecture, and evaluation techniques in deep learning.
+
+### Assignment 7 - Classifying CIFAR-100 Images with Convolutional Neural Networks
+This assignment involved designing and implementing convolutional neural networks (CNNs) for classifying images from the CIFAR-100 dataset. The key tasks included:
+
+* Dataset Preparation: Dividing the CIFAR-100 training dataset into a sub-training set and a validation set, allocating 20% of the training data for validation.
+* Model Design: Developing CNN models to predict the "fine" labels (class) of the images. The models were designed using the Keras library, with experimentation across various architectures, activation functions, optimizers, and hyperparameters.
+* Model Selection: Identifying the top three models based on their performance on the validation set.
+* Full Training and Testing: Retraining the selected models on the entire training set and evaluating their performance on the test set.
+* Benchmarking: Comparing the model accuracies against other models listed on the CIFAR-100 image classification leaderboard, focusing on those that did not use extra training data.
+* Reporting: Documenting the architectures, hyperparameters, and performance metrics of the three best models, including a comprehensive analysis of their test accuracies and benchmarking results.
+
+This assignment showcases the application of CNNs to a challenging image classification problem, emphasizing model experimentation, evaluation, and reporting.
+
+### Assignment 8 - Sequence Learning with LSTM Networks: Arithmetic Operations and Data Reversal
+In this assignment, the goal was to implement an Encoder-Decoder model using LSTM (Long Short-Term Memory) networks for sequence learning tasks, focusing on arithmetic operations and data reversal. Key tasks included:
+
+* Data Generation: Creating pairs of queries and answers for basic arithmetic operations (addition and subtraction) between numbers, formatted to maintain fixed lengths.
+* One-Hot Encoding: Implementing a function to convert the query and answer strings into a one-hot encoding format for training the model.
+* Model Architecture: Building an Encoder-Decoder LSTM network with:
+    * An encoder LSTM layer to process the input sequences.
+    * A RepeatVector layer to repeat the encoded vector for the decoder input.
+    * A decoder LSTM layer to generate the output sequence.
+    * A Dense layer with a softmax activation to output the final predictions.
+* Training and Evaluation: Training the model on a dataset split into training, validation, and test sets, using categorical crossentropy loss and accuracy metrics. Evaluating the model on the test set to assess performance.
+* Data Reversal Experiment: Reversing the query and answer strings in the dataset to investigate its impact on model performance, followed by retraining and evaluation.
+* Visualization: Plotting validation accuracy over epochs for both the baseline (non-reversed) and reversed datasets to compare performance trends.
+
+This assignment highlights the use of LSTM networks for handling sequence data, the impact of data preprocessing on model performance, and the importance of experimental validation in machine learning workflows.
+
+
+
+
+
+
+
 
 
 
