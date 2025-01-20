@@ -57,6 +57,7 @@ This assignment focused on optimizing hyperparameters for a neural network using
 This assignment underscores the importance of hyperparameter tuning in machine learning to enhance model performance.
 
 ### Assignment 6 - Implementing Convolutional Neural Networks with Keras
+You can download the original cats and dogs here: http://www.kaggle.com/c/dogs-vs-cats/data
 This assignment involved implementing convolutional neural networks (CNNs) and experimenting with regularization methods to improve model performance and prevent overfitting. The tasks included:
 
 * Data Organization: Setting up training, validation, and test directories for the Cats vs. Dogs dataset.
@@ -69,6 +70,7 @@ This assignment involved implementing convolutional neural networks (CNNs) and e
 This assignment provides practical exposure to building and training CNNs, emphasizing data preparation, model architecture, and evaluation techniques in deep learning.
 
 ### Assignment 7 - Classifying CIFAR-100 Images with Convolutional Neural Networks
+The CIFAR dataset can be found here: https://www.cs.utoronto.ca/~kriz/cifar.html
 This assignment involved designing and implementing convolutional neural networks (CNNs) for classifying images from the CIFAR-100 dataset. The key tasks included:
 
 * Dataset Preparation: Dividing the CIFAR-100 training dataset into a sub-training set and a validation set, allocating 20% of the training data for validation.
